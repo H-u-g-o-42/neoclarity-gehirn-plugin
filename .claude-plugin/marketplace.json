@@ -1,0 +1,11 @@
+{
+  "name": "neoclarity",
+  "owner": { "name": "Neoclarity" },
+  "plugins": [
+    {
+      "name": "gehirn",
+      "source": "./plugin",
+      "description": "Das Firmengehirn von Neoclarity: suchen, nachlesen und Neues eintragen — direkt aus Claude Code."
+    }
+  ]
+}
