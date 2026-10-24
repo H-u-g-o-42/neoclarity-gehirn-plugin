@@ -1,6 +1,6 @@
 ---
 name: gehirn
-description: Firmengehirn von Neoclarity befragen. Nutzen, sobald eine Frage Neoclarity als Firma betrifft — Steuern, Finanzen, Recht, Verträge, Marketing, Vertrieb, Preise, Produkt, Team, Kunden, Entscheidungen — oder wenn jemand „schau im Gehirn nach“ sagt.
+description: Firmengehirn von Neoclarity befragen. Nutzen bei allem, was Neoclarity als Firma betrifft (Abläufe, Regeln, Zahlen, Preise, Zuständigkeiten, Entscheidungen — in jedem Bereich der Firma) oder wenn jemand „schau im Gehirn nach“ sagt.
 ---
 
 # Im Firmengehirn nachschlagen
@@ -13,7 +13,9 @@ description: Firmengehirn von Neoclarity befragen. Nutzen, sobald eine Frage Neo
 3. Antworten mit Quelle: Notiz-Titel und `gilt_seit`, und die Notiz verlinken (Link aus dem
    Treffer), damit der Mensch nachlesen kann. Steht nichts im Gehirn, sag das klar — nicht aus dem
    eigenen Wissen auffüllen, ohne es als solches zu kennzeichnen.
-4. Bei `sicherheit: vermutung` oder `status: umstritten` das ausdrücklich dazusagen.
+4. „⚠ umstritten“ heißt: Angaben widersprechen sich — das dazusagen und den Widerspruch nennen.
+   „⚠ Vermutung“ (`sicherheit: vermutung`) heißt: nur vermutet — das dazusagen. Meldet die Suche
+   oben, dass ein Stichwort nichts fand, nicht aus den übrigen Treffern antworten.
 
 Was ist offen, welche Fristen stehen an? → `gehirn_offen` (bei mir: `zustaendig: "ich"`).
 Was hat sich geändert? → `gehirn_verlauf` (für „diese Woche“ mit `seit`).

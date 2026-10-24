@@ -1,6 +1,6 @@
 ---
 name: gehirn-merken
-description: Neues ins Firmengehirn von Neoclarity eintragen (nur mit Schreibrecht) — von selbst, ohne Nachfrage, sobald im Gespräch eine Entscheidung, ein neuer Fakt, eine Zahl oder ein Ergebnis entsteht, das in drei Monaten noch wichtig ist. Außerdem bei „merk dir“, „trag das ein“, „fürs Gehirn“, „das hat sich geändert“, bei einem eingefügten Text (Mail vom Steuerberater, Mitschrift, Diktat), der bleiben soll, oder wenn im Gespräch eine Entscheidung fällt.
+description: Neues ins Firmengehirn von Neoclarity eintragen (nur mit Schreibrecht) — von selbst, ohne Nachfrage, sobald im Gespräch eine Entscheidung, ein neuer Fakt, eine Zahl oder ein Ergebnis entsteht, das in drei Monaten noch wichtig ist — egal aus welchem Bereich der Firma. Außerdem bei „merk dir“, „trag das ein“, „fürs Gehirn“, „das hat sich geändert“, bei einem eingefügten Text (Mail vom Steuerberater, Mitschrift, Diktat), der bleiben soll, oder wenn im Gespräch eine Entscheidung fällt.
 ---
 
 # Ins Firmengehirn eintragen
@@ -28,6 +28,9 @@ Die Hausordnung liefert `gehirn_uebersicht` — einmal lesen, bevor du schreibst
    in einem Schritt) — nicht `ENTSCHEIDUNGEN.md` selbst neu schreiben.
 5. **Offener Punkt erledigt?** `gehirn_erledigt` mit dem Titel aus `gehirn_offen` und dem Ergebnis
    — nicht von Hand in der Tabelle abhaken.
+   **Widerspruch, der sich nicht klären lässt?** `gehirn_status` mit `status: "umstritten"` und dem
+   Widerspruch als `grund` (Kopf, Notiz und Offene-Punkte-Liste in einem Schritt); nach der Klärung
+   `gehirn_status` mit `status: "aktuell"` — nie die ganze Notiz dafür neu schicken.
 6. **Geändertes Detail:** Ändert sich ein Detail (eine Zahl, ein Datum, eine Zuständigkeit),
    ersetzt oder ergänzt du es in der bestehenden Notiz mit gehirn_ergaenzen — Git behält den alten
    Wortlaut. gehirn_ueberholen nur, wenn die Notiz als Ganzes nicht mehr gilt und ein ganz neues
