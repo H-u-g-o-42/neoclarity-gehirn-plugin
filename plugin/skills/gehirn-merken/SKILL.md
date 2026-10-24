@@ -1,9 +1,11 @@
 ---
 name: gehirn-merken
-description: Neues ins Firmengehirn von Neoclarity eintragen — von selbst, ohne Nachfrage, sobald im Gespräch eine Entscheidung, ein neuer Fakt, eine Zahl oder ein Ergebnis entsteht, das in drei Monaten noch wichtig ist. Außerdem bei „merk dir“, „trag das ein“, „fürs Gehirn“, „das hat sich geändert“, bei einem eingefügten Text (Mail vom Steuerberater, Mitschrift, Diktat), der bleiben soll, oder wenn im Gespräch eine Entscheidung fällt.
+description: Neues ins Firmengehirn von Neoclarity eintragen (nur mit Schreibrecht) — von selbst, ohne Nachfrage, sobald im Gespräch eine Entscheidung, ein neuer Fakt, eine Zahl oder ein Ergebnis entsteht, das in drei Monaten noch wichtig ist. Außerdem bei „merk dir“, „trag das ein“, „fürs Gehirn“, „das hat sich geändert“, bei einem eingefügten Text (Mail vom Steuerberater, Mitschrift, Diktat), der bleiben soll, oder wenn im Gespräch eine Entscheidung fällt.
 ---
 
 # Ins Firmengehirn eintragen
+
+Fehlen die Schreib-Werkzeuge, darfst du nur lesen — sag das.
 
 Die Hausordnung liefert `gehirn_uebersicht` — einmal lesen, bevor du schreibst.
 
